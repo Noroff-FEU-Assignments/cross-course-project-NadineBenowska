@@ -1,1 +1,1 @@
-This folder contains the images for the homepage
+This folder contains the images for the Game Hub page
