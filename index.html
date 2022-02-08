@@ -1,10 +1,115 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My first website</title>
-  </head>
-  <body>
-    <h1>Hello world!</h1>
-    <p>Welcome to my first website.</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="purchase games at Game Hub"/>
+  <title>Game Hub | Home</title>
+</head>
+<body>
+  <header>
+    <a href="index.html">Game Hub</a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="games.html">Games</a></li>
+        <li><a href="sale.html">Sale</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="loginorregister.html">Log In Or Register</a></li>
+        <li><a href="chart.html">Chart</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <title>Search Bar</title>
+      <body>
+        <div class="container">
+          <div class="search-bar">
+            <input 
+            type="text" 
+            class="search"
+            placeholder="Type To Search"
+            />
+          </div>
+      </body>
+    </nav>
+    <section>
+      <h1>Popular Games</h1>
+      <!--image slider start-->
+      <div class="slider">
+        <div class= "slides">
+          <!--buttons start-->
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <!--buttons end-->
+          <!--slide images start-->
+          <div class="slide one">
+            <img src="images/ForzaStreet.jpg">
+          </div>
+          <div class="slide two">
+            <img src="images/ghostwire-tokyo.jpg">
+          </div>
+          <div class="slide three">
+            <img src="images/needforspeed.jpg"> 
+          </div>
+          <!--slide images end-->
+          <!--automatic nav start-->
+          <div class="nav-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+          </div>
+          <!--automatic nav end-->
+        </div>
+        <!--manual navi start-->
+        <div class="navi-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+        </div>
+        <!--manual navi end-->
+      </div>
+      <!--image slider end-->
+    </section>
+  </header>
+  <main>
+    <section>
+      <h2>Upcoming Games</h2>
+      <div>
+        <img src="images/ForzaStreet.png" alt="Forza Cars">
+        <h3>Preorder Now!</h3>
+        <a href="#">$89.99</a>
+      </div>
+      <div>
+        <img src="images/battlefield.jpg" alt="Battlefield 2042">
+        <h3>Preorder Now!</h3>
+        <a href="#">$99.99</a>
+      </div>
+      <div>
+        <img src="images/gotham-knights.jpg" alt="Gotham Knights">
+        <h3>Preorder Now!</h3>
+        <a href="#">$69.99</a>
+      </div>
+      <div>
+        <img src="images/injustice2.jpg" alt="Injustice 2">
+        <h3>Preorder Now!</h3>
+        <a href="#">$59.99</a>
+      </div>
+      <div>
+        <img src="images/Minecraft_cover.png" alt="Minecraft">
+        <h3>Preorder Now!</h3>
+        <a href="#">$49.99</a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <a href="#">Support</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Website Terms Of Use</a>
+    <ion-icon name="logo-facebook"></ion-icon>
+    <ion-icon name="logo-instagram"></ion-icon>
+    <ion-icon name="logo-twitter"></ion-icon>
+  </footer>
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
 </html>
